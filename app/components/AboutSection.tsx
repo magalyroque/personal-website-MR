@@ -8,22 +8,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>PostgreSQL</li>
-        <li>Unity</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Godot</li>
-        <li>C#</li>
-        <li>Python</li>
-        <li>C++</li>
-        <li>OpenCV</li>
-        <li>Git</li>
-        <li>Google Cloud Platform</li>
-        <li>LLM</li>
-        <li>Deep Learning</li>
-        <li>VR/AR</li>
+        <li>Cooking</li>
+        <li>Baking</li>
+        <li>Crocheting</li>
+        <li>Sewing</li>
+        <li>Hand craft activities</li>
+        <li>Piano</li>
       </ul>
       
     ),
@@ -33,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Master&apos;s Computer Science - University of Texas Rio Grande Valley</li>
-        <li>Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>Freshamn&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>High School Graduate&apos;s IDEA Weslaco Pike</li>
       </ul>
     ),
   },
@@ -44,6 +34,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Add Later</li>
+        <li>Add More Stuff</li>
       </ul>
     ),
   },
@@ -66,13 +57,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Game Developer with interest of many topics, from Machine Learning, to Theory.
-            Different skills I have acquired over the years to consider myself a Jack of All Trades, and
-            master to game development since its quite fun.
-
-            My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
-            learning different topics and also teaching others to pursue certain topics if it finds their
-            intereset. 
+          Hi there! I am someone who finds joy in hands-on activities, whether it is baking a delicious treat,
+          crocheting a cozy blanket, cooking up a new recipe, or sewing something unique. I love the process 
+          of creating and learning new skills along the way.  Traveling is a big dream of mine—I can not wait to 
+          explore new places and cultures. Above all, I am determined to build a good and stable future, filled
+          with growth and adventure.  
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
