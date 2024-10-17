@@ -20,13 +20,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
                 sequence={[
-                    "Ramiro",
+                    "Magaly",
                     1000,
-                    "Game Developer",
+                    "Web Developer",
                     1000,
-                    "Researcher",
+                    "Baker",
                     1000,
-                    "Teacher",
+                    "Student",
                     1000,
                 ]}
                 wrapper="span"
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          &ldquo;The best way to predict the future is to invent it.&ldquo;
+          &ldquo;Is It Better To Speak Or To Die.&ldquo;
             — Alan Kay
           </p>
           <div>
@@ -63,7 +63,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/mabel1.jpg"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={350}
