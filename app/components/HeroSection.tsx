@@ -35,8 +35,8 @@ const HeroSection = () => {
                 />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          &ldquo;Is It Better To Speak Or To Die.&ldquo;
-            — Alan Kay
+          &ldquo;Carpe Diem, Seize The Day .&ldquo;
+            — The Dead Poets Society 
           </p>
           <div>
           <Link
