@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Freshamn&apos;s Computer Science - University of Texas Rio Grande Valley</li>
-        <li>High School Graduate&apos;s IDEA Weslaco Pike</li>
+        <li>Freshman Computer Science - University of Texas Rio Grande Valley</li>
+        <li>High School Graduate IDEA Weslaco Pike</li>
       </ul>
     ),
   },
@@ -51,17 +51,19 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-[#fa91cc]" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} alt="" />
+        <Image src="/images/snoopy.jpg" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hi there! I am someone who finds joy in hands-on activities, whether it is baking a delicious treat,
+          Hello! I am someone who finds joy in hands-on activities, whether it is baking a delicious treat,
           crocheting a cozy blanket, cooking up a new recipe, or sewing something unique. I love the process 
-          of creating and learning new skills along the way.  Traveling is a big dream of mine—I can not wait to 
-          explore new places and cultures. Above all, I am determined to build a good and stable future, filled
-          with growth and adventure.  
+          of creating and learning new skills along the way. This love for creating and exploring has naturally 
+          led me to pursue a path in computer science. I am excited by the idea of using technology to bring my 
+          own designs to life, combining my creative interests with technical skills. I can not wait to see where 
+          this journey will take me in the future, as I continue to discover new ways to express myself and 
+          innovate in the digital world.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
